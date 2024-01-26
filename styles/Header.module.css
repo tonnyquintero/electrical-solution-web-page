@@ -15,3 +15,13 @@
     gap: 3em;
     
 }
+
+.headerButton1 {
+    /* Aqui el penúltimo boton*/
+    background-color: orange;
+}
+
+.headerButton2 {
+    /* Aqui el último boton*/
+    background-color: orangered;
+}

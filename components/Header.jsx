@@ -18,8 +18,8 @@ const Header = () => {
             <Link href="/"><h1>Nosotros</h1></Link>
             <Link href="/"><h1>Noticias</h1></Link>
             <Link href="/"><h1>Contacto</h1></Link>
-            <Link href="/"><h1>Centro de Ayuda</h1></Link>
-            <Link href="/"><h1>Registro</h1></Link>
+            <Link href="/"><h1 className={styles['headerButton1']}>Centro de Ayuda</h1></Link>
+            <Link href="/"><h1 className={styles['headerButton2']}>Registro</h1></Link>
             </div>
         </div>
     </div>
