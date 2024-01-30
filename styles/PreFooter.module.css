@@ -2,18 +2,31 @@
     background-color: #333333;
     color: #8D8D8D;
     font-family: sans-serif;
+    padding: 1em 6em;
 }
 
 .descarga {
     display: flex;
+    padding-bottom: 1em;
+    gap: 3em;
+    color: white;
+}
+
+.descarga h2 {
+    color: #ffa773;
+    font-weight: bold;
+    padding-bottom: 1em;
 }
 
 .descarga-socials {
     display: flex;
+    padding-top: 0.5em;
 }
 
 .descarga-redes {
     display: flex;
+    padding-top: 1em;
+    gap: 1em;
 }
 
 .descarga-descarga {
@@ -23,4 +36,33 @@
 
 .descarga-socials {
     gap: 1em;
+}
+
+.area-numero {
+    display: flex;
+    color: #8D8D8D;
+}
+
+.area-numero p {
+    color: #17a2b8;
+    padding-left: 0.3em;
+}
+
+.contacto {
+    display: flex;
+    padding-top: 2em;
+    border-top: 1px solid white;
+    gap: 3em;
+}
+
+.contact-title {
+    color:#ffa773;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.contacto h2 {
+    color: white;
+    font-weight: bold;
+    padding-top: 0.2em;
 }

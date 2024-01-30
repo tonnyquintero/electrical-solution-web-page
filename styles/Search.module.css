@@ -1,0 +1,47 @@
+.search-section {
+    background-color: white;
+    width: 40em;
+    height: 12em;
+    left: 7%;
+    top: 45%;
+    border-radius: 20px;
+    position: absolute;
+    padding: 1em;
+
+}
+
+.search-section input {
+    border: 1px solid darkgray;
+    border-radius: 35px;
+    width: 15em;
+    height: 2em;
+    padding-left: 1em;
+
+}
+
+.search-section button {
+    margin-left: 3em;
+    padding: 0.2em;
+    border-radius: 35px;
+    width: 5em;
+    background-color: #ff6500;
+    color: white;
+    font-weight: 600;
+
+}
+
+.search-section h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.search-section h3 {
+    color: darkgray;
+    padding-top: 0.2em;
+}
+
+.search-section h2 {
+    font-weight:500;
+    padding-top: 0.2em;
+    padding-bottom: 1.5em;
+}
