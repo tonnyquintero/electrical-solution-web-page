@@ -2,12 +2,22 @@
     display: flex;
     margin: 1em 2em;
     justify-content: space-between;
-    padding-bottom: 3em;
+}
+
+.second-text {
+    font-weight: bold;
+    color: #ff6500;
 }
 
 .right {
     display: flex;
     gap: 1em;
+}
+
+.right-text {
+    display: flex;
+    gap: 1em;
+    padding-top: 0.5em;
 }
 
 .left {
@@ -18,10 +28,20 @@
 
 .headerButton1 {
     /* Aqui el penúltimo boton*/
-    background-color: orange;
+    padding: 0.4em 0.5em;
+    color: #ff6500;
+    font-weight: bold;
+    border-radius: 45px;
+    border: 1px solid #ff6500;
 }
 
 .headerButton2 {
     /* Aqui el último boton*/
-    background-color: orangered;
+    background-color: #ff6500;
+    padding: 0.4em 0.9em;
+    color: white;
+    border-radius: 45px;
+    font-weight: bold;
+
+
 }

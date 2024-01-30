@@ -1,0 +1,18 @@
+.footer-container {
+    margin: 0 4em;
+    padding: 0 2em;
+}
+
+.footer-logos {
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    margin: 0 0 3em 0;
+    height: 3.5em;
+}
+
+.footer-text {
+    text-align: center;
+    color: grey;
+    margin-bottom: 2em;
+}

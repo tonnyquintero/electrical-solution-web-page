@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../styles/PreFooter.module.css'
 
 const PreFooter = () => {
   return (
-    <div>Aqui va una info antes del footer</div>
+    <div className={styles['container-preFooter']}>Aqui va una info antes del footer</div>
   )
 }
 

@@ -10,14 +10,17 @@ const Header = () => {
         <div className={styles['left']}>
         <Image src={logo} alt='logo'></Image>
         <div>
-        <h1 className={styles['InitialText']}>Portal empresas <br />Independiente</h1>
+        <h1 className={styles['InitialText']}>Portal empresas</h1>
+        <h3 className={styles['second-text']}>Independientes</h3>
         </div>
         </div>
         <div >
             <div className={styles['right']}>
-            <Link href="/"><h1>Nosotros</h1></Link>
-            <Link href="/"><h1>Noticias</h1></Link>
-            <Link href="/"><h1>Contacto</h1></Link>
+            <div className={styles['right-text']}>
+              <Link href="/"><h1>Nosotros</h1></Link>
+              <Link href="/"><h1>Noticias</h1></Link>
+              <Link href="/"><h1>Contacto</h1></Link>
+            </div>
             <Link href="/"><h1 className={styles['headerButton1']}>Centro de Ayuda</h1></Link>
             <Link href="/"><h1 className={styles['headerButton2']}>Registro</h1></Link>
             </div>
