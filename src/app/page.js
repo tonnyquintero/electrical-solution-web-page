@@ -12,7 +12,6 @@ export default function Home() {
       <Header />
       <Info />
       <Search />
-      <SearchResult />
       <PreFooter />
       <Footer />
 

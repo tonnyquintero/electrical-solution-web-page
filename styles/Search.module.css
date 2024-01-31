@@ -45,3 +45,45 @@
     padding-top: 0.2em;
     padding-bottom: 1.5em;
 }
+
+.active {
+    color: black;
+  }
+  
+  .inactive {
+    color: red;
+    display: none;
+  }
+
+
+  .modal-button {
+    padding: 0.2em;
+    border-radius: 35px;
+    width: 5em;
+    background-color: #ff6500;
+    color: white;
+    font-weight: 600;
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .prueba {
+    background-color: white;
+    padding-left: 7em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .prueba h1 {
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .prueba button {
+    background-color: #ff6500;
+    color: white;
+    padding: 0.2em 1em;
+    margin-top: 1em;
+    font-weight: 500;
+    border-radius: 35px;
+  }
